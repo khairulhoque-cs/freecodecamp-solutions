@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: warp;
+  gap: 10px;
+}
+
+body {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 90vw;
+  min-height: calc(100vh - 100px);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+section {
+  flex: 1;
+  min-width: 250px;
+  width: 30%;
+  padding: 10px
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+hr {
+  width: 100%;
+  margin: 20px 0;
+  height: 2px;
+  background-color: skyblue;
+  border-color: white;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
