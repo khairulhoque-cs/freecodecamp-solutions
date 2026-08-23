@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.basic-plan {
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.pro-plan {
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.premium-plan {
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin-bottom: 3px;
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+ul li {
+    font-size: 20px;
+    margin: 18px 0;
+}
+
+.check {
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.cross {
+    color: crimson;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: #e7c15c;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
