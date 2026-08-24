@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#project-section">Work</a></li>
+        <li><a  href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="welcome-section">
+      <h1>Hey I am a Khairul</h1>
+      <p>a Web Developer</p>
+    </section>
+
+    <section id="project-section">
+      <h2>Some of my project</h2>
+      <div class="project-grid">
+        <div class="project-tile">
+          <p class="project-title">Tribute Page</p>
+          <a href="https://codepen.io" target="_blank" class="project-link">View my Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <h2>Get In Touch</h2>
+      <p>Have a question or want to work together? Drop me a line!</p>
+      <form class="contact-form" onsubmit="event.preventDefault();">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Let's work together...</p>
+      <a id="profile-link" href="https://github.com" target="_blank">GitHub</a>
+    </footer>
+  </body>
+</html>
