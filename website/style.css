@@ -216,6 +216,178 @@ header {
     color: #f97316;
 }
 
+/* Solutions style */
+.solutions-section {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.section-heading h2 {
+    margin: 0 0 0 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0a0a23;
+}
+
+.section-heading h2 i {
+    margin-right: 8px;
+    color: #6558ff;
+    font-size: 20px;
+}
+
+.section-heading a {
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7568ff;
+}
+
+.section-heading a i {
+    margin-left: 6px;
+    font-size: 15px;
+}
+
+.solutions-grid {
+    margin: 0 20px 0 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.solution-card {
+    min-height: 140px;
+    padding: 12px;
+
+    display: flex;
+    gap: 12px;
+
+    background: #ffffff;
+    border: 1px solid #dbe2ea;
+    border-radius: 7px;
+
+    box-shadow:
+        0 6px 15px rgba(0, 0, 0, 0.08);
+
+    transition: all 0.25s ease;
+}
+
+.solution-card:hover {
+    transform: translateY(-3px);
+    border-color: #b8c3d1;
+
+    box-shadow:
+        0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+.solution-icon {
+    margin: 4px 0 0 6px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.html-icon i {
+    font-size: 65px;
+    color: #f0a500;
+}
+.css-icon i {
+    font-size: 65px;
+    color: #264de4;
+}
+
+.solution-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.solution-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+
+    padding: 6px 12px;
+    margin-bottom: 10px;
+
+    background: #e0e7ff;
+    color: #4338ca;
+
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.solution-content h3 {
+    margin: 0 0 6px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+.solution-content p {
+    margin: 0;
+    color: #4c5766;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.solution-info {
+    margin-top: auto;
+    padding-top: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.solution-info span {
+    color: #4338ca;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.solution-info a {
+    color: #4338ca;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.solution-info a:hover {
+    color: #0a0a23;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Mobile */
 @media (max-width: 768px) {
     header {
