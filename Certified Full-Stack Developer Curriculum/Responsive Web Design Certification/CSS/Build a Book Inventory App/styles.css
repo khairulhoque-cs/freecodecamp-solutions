@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #dcdcdc;
+  padding: 20px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 850px;
+}
+
+thead {
+  background: linear-gradient(to bottom, #b8e7ff, #67c2ee);
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Row backgrounds */
+tr.read {
+  background: #9be79b;
+}
+
+tr.to-read {
+  background: linear-gradient(to bottom, #e9e9e9, #d5ddd5);
+}
+
+tr.in-progress {
+  background: #f3dca5;
+}
+
+/* Base status style */
+.status {
+  display: inline-block;
+  min-width: 110px;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Status buttons */
+tr.read .status {
+  border: 1px solid #30c930;
+  background: linear-gradient(to bottom, #74f174, #22cf22);
+}
+
+tr.to-read .status {
+  border: 1px solid #d40000;
+  background: linear-gradient(to bottom, #ff8a8a, #ff1f1f);
+}
+
+tr.in-progress .status {
+  border: 1px solid #d89a00;
+  background: linear-gradient(to bottom, #ffd46d, #f2a000);
+}
+
+/* Rating circles */
+.rate {
+  display: inline-flex;
+  gap: 5px;
+}
+
+.rate span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #888;
+  background: #e6e6e6;
+}
+
+/* One rating */
+span[class~="one"] span:first-child {
+  background: #ffd92f;
+}
+
+/* Two ratings */
+span[class~="two"] span:first-child,
+span[class~="two"] span:nth-child(2) {
+  background: #ffd92f;
+}
+
+/* Three ratings */
+span[class~="three"] span {
+  background: #ffd92f;
+}

@@ -1,0 +1,39 @@
+body {
+  margin: 0;                   /* Removes default browser margins */
+  min-height: 100vh;           /* Forces the body to take up the full height of the screen */
+  display: flex;               /* Activates Flexbox layout */
+  justify-content: center;     /* Centers your #email box horizontally */
+  align-items: center;         /* Centers your #email box vertically */
+  background-color: #f0f0f0;   /* Optional: adds a light background color to see the box pop */
+}
+
+#email {
+  box-sizing: border-box;
+  width: 500px;
+  padding: 50px;
+  /* margin-top: 50px; */
+  border: 2px solid black;
+  text-align: center;
+}
+
+#confidential, #top-secret {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 15px;
+  border: 2px solid red;
+  font-weight: bold;
+}
+
+#confidential {
+  transform: rotate(-5deg);
+  color: red;
+}
+
+#top-secret {
+  transform: rotate(5deg);
+  color: darkred;
+}
+
+.blurred {
+  filter: blur(3px);
+}
