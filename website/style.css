@@ -108,6 +108,10 @@ header {
     cursor: pointer;
 }
 
+#themeButton:hover {
+    background: #f0f0f0;
+}
+
 .hero {
     min-height: 500px;
     padding: 70px 8%;
